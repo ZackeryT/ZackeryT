@@ -1,0 +1,32 @@
+html,
+body {
+  font-family: "PT Serif", serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  background-color: teal;
+}
+.name {
+  text-align: center;
+  font-size: 10em;
+  border: solid white;
+  margin: 10%;
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+.Imgs {
+  width: 10em;
+  height: 15em;
+}
+.child {
+  border: solid purple;
+  margin: 3%;
+  padding: 2em;
+  font-size: 3em;
+  box-shadow: 1em 0.5em turquoise;
+}
